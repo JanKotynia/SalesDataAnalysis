@@ -11,7 +11,7 @@ coupons, or customer ratings.
 delivery details, and best-seller flags
 
 I was using:
-** pandas · NumPy · seaborn · matplotlib · kagglehub **
+**pandas · NumPy · seaborn · matplotlib · kagglehub**
 
 🛠️ Data cleaning:
 - Vectorized string processing: extracting numeric values from messy text fields
