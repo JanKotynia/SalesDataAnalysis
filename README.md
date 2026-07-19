@@ -4,7 +4,7 @@ Exploratory data analysis of a 42,000-item Amazon Electronics sales dataset, foc
 process of cleaning this messy dataset, alongside with analysis of what actually drives product sales price, discounts, sponsorship,
 coupons, or customer ratings.
 
-- ** Source: ** Amazon Electronics Products Sales Dataset (Kaggle)
+- **Source:** Amazon Electronics Products Sales Dataset (Kaggle)
 - **Size:** ~42,000 records, 17 raw features
 - **Version used:** raw / uncleaned, chosen deliberately to demonstrate a full cleaning pipeline
 - **Content:** product prices, discounts, coupons, ratings, review counts, sponsorship status,
@@ -39,13 +39,13 @@ last_month_revenue) computed from cleaned base columns for downstream analysis.
 - **Rating and sales volume:** a weak positive relationship, high-selling products
 consistently have ratings above 4.5, but rating alone is a poor predictor of sales
 volume overall.
--**Discounts:** no meaningful correlation between discount size and units sold.
--**Sponsorship:** sponsored listings sell slightly more on average, but the effect is
+- **Discounts:** no meaningful correlation between discount size and units sold.
+- **Sponsorship:** sponsored listings sell slightly more on average, but the effect is
 small.
--**Best sellers:** products flagged as "Best Seller" have marginally higher ratings
+- **Best sellers:** products flagged as "Best Seller" have marginally higher ratings
 (~0.1 higher on average) than the rest of the catalog.
--**Coupons:** no visible relationship between coupon value and sales volume.
--**Rating distribution** is strongly left-skewed, most products cluster between 4.0
+- **Coupons:** no visible relationship between coupon value and sales volume.
+- **Rating distribution** is strongly left-skewed, most products cluster between 4.0
 and 4.8, which limits rating's usefulness as a differentiator between products.
 
 <img width="1561" height="873" alt="copies_corr" src="https://github.com/user-attachments/assets/3b04a780-7a6d-4604-9839-e19f4ff9dade" />
